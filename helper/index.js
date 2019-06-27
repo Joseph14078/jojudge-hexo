@@ -5,7 +5,7 @@ module.exports = function(hexo) {
 
     calendarDate: function(date) {
       date = Date.parse(date.toString());
-      return moment(date).calendar();
+      return moment(date).format('YYYY-MM-DD')
     },
 
   };
